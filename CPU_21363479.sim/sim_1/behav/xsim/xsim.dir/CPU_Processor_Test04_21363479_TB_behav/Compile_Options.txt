@@ -1,0 +1,1 @@
+--incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "CPU_Processor_Test04_21363479_TB_behav" "xil_defaultlib.CPU_Processor_Test04_21363479_TB" -log "elaborate.log" 

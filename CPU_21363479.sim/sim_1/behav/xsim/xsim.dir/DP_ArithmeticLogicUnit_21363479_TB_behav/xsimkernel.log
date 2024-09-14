@@ -1,0 +1,7 @@
+Running: xsim.dir/DP_ArithmeticLogicUnit_21363479_TB_behav/xsimk.exe -simmode gui -wdb DP_ArithmeticLogicUnit_21363479_TB_behav.wdb -simrunnum 0 -socket 64191
+Design successfully loaded
+Design Loading Memory Usage: 7344 KB (Peak: 7344 KB)
+Design Loading CPU Usage: 15 ms
+Simulation completed
+Simulation Memory Usage: 8096 KB (Peak: 8096 KB)
+Simulation CPU Usage: 30 ms

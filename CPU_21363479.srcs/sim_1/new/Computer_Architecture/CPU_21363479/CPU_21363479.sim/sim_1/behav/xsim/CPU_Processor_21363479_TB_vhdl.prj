@@ -1,0 +1,39 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../CPU_21363479.srcs/sources_1/new/CPU_CAR_21363479.vhd" \
+"../../../../CPU_21363479.srcs/sources_1/new/CPU_ControlMemory_21363479.vhd" \
+"../../../../CPU_21363479.srcs/sources_1/new/CPU_DFlipFlop_21363479.vhd" \
+"../../../../CPU_21363479.srcs/sources_1/new/CPU_IR_21363479.vhd" \
+"../../../../CPU_21363479.srcs/sources_1/new/CPU_Mux2_17Bit_21363479.vhd" \
+"../../../../CPU_21363479.srcs/sources_1/imports/sources_1/imports/sources_1/new/CPU_Mux2_32Bit_21363479.vhd" \
+"../../../../CPU_21363479.srcs/sources_1/new/CPU_PC_21363479.vhd" \
+"../../../../CPU_21363479.srcs/sources_1/new/CPU_Processor_21363479.vhd" \
+"../../../../CPU_21363479.srcs/sources_1/imports/sources_1/new/CPU_RAM_21363479.vhd" \
+"../../../../CPU_21363479.srcs/sources_1/new/CPU_SMux_21363479.vhd" \
+"../../../../CPU_21363479.srcs/sources_1/new/CPU_SignExtend_21363479.vhd" \
+"../../../../CPU_21363479.srcs/sources_1/new/CPU_StatusRegister_21363479.vhd" \
+"../../../../CPU_21363479.srcs/sources_1/new/CPU_ZeroFill_21363479.vhd" \
+"../../../../CPU_21363479.srcs/sources_1/imports/sources_1/imports/sources_1/new/DP_32Bit_B_Logic_21363479.vhd" \
+"../../../../CPU_21363479.srcs/sources_1/imports/sources_1/imports/sources_1/new/DP_32Bit_LogicCircuit_21363479.vhd" \
+"../../../../CPU_21363479.srcs/sources_1/imports/sources_1/imports/sources_1/new/DP_ArithmeticLogicUnit_21363479.vhd" \
+"../../../../CPU_21363479.srcs/sources_1/imports/sources_1/imports/sources_1/new/DP_CFlagMux2_1Bit_21363479.vhd" \
+"../../../../CPU_21363479.srcs/sources_1/imports/sources_1/imports/sources_1/new/DP_Datapath_21363479.vhd" \
+"../../../../CPU_21363479.srcs/sources_1/imports/sources_1/imports/sources_1/new/DP_FullAdder_21363479.vhd" \
+"../../../../CPU_21363479.srcs/sources_1/imports/sources_1/imports/sources_1/new/DP_FunctionalUnit_21363479.vhd" \
+"../../../../CPU_21363479.srcs/sources_1/imports/sources_1/imports/sources_1/new/DP_Mux3_1Bit_21363479.vhd" \
+"../../../../CPU_21363479.srcs/sources_1/imports/sources_1/imports/sources_1/new/DP_RippleCarryAdder32Bit_21363479.vhd" \
+"../../../../CPU_21363479.srcs/sources_1/imports/sources_1/imports/sources_1/new/DP_ShifterCFlagMux2_1Bit_21363479.vhd" \
+"../../../../CPU_21363479.srcs/sources_1/imports/sources_1/imports/sources_1/new/DP_Shifter_21363479.vhd" \
+"../../../../CPU_21363479.srcs/sources_1/imports/sources_1/imports/sources_1/new/DP_SingleBit_B_Logic_21363479.vhd" \
+"../../../../CPU_21363479.srcs/sources_1/imports/sources_1/imports/sources_1/new/DP_SingleBit_LogicCircuit_21363479.vhd" \
+"../../../../CPU_21363479.srcs/sources_1/imports/sources_1/imports/sources_1/new/DP_ZeroDetection_21363479.vhd" \
+"../../../../CPU_21363479.srcs/sources_1/imports/sources_1/imports/sources_1/imports/new/RF_DestReg_Decoder_21363479.vhd" \
+"../../../../CPU_21363479.srcs/sources_1/imports/sources_1/imports/sources_1/imports/new/RF_Mux16_32Bit_21363479.vhd" \
+"../../../../CPU_21363479.srcs/sources_1/imports/sources_1/imports/sources_1/imports/new/RF_Mux32_32Bit_21363479.vhd" \
+"../../../../CPU_21363479.srcs/sources_1/imports/sources_1/imports/sources_1/imports/new/RF_Register32Bit_21363479.vhd" \
+"../../../../CPU_21363479.srcs/sources_1/imports/sources_1/imports/sources_1/imports/new/RF_RegisterFile_32_15_21363479.vhd" \
+"../../../../CPU_21363479.srcs/sources_1/imports/sources_1/imports/sources_1/imports/new/RF_TempDestReg_Decoder_21363479.vhd" \
+"../../../../CPU_21363479.srcs/sim_1/new/CPU_Processor_21363479_TB.vhd" \
+
+# Do not sort compile order
+nosort

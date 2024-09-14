@@ -1,0 +1,59 @@
+ROM
+------------
+NA - gives a potential next address to the CAR
+MS - selects whether to load or increment CAR
+      000 - Inc, 001 - Load
+MC - selects either 0:NA or 1:opcode as the load
+	address
+IL - enables IR to be loaded if an instruction
+	is fetched from RAM
+PI - increment the PC
+PL - jump the PC by the displacement
+TD - selects a temp register to write to while
+	performing micro-operations
+TA - selects a temp register to write out from
+	while performing micro-operations
+TB - selects a temp register to write out from
+	while performing micro-operations
+MB - selects either 0:Bus B from the RF or 1:SB 
+	from the IR as output from the DP and
+	input to the FU
+FS - selects a micro-operation
+MD - selects either data from the 0:FU or the
+	1:RAM as input to the RF
+RW - enables registers in the RF to be written
+	to
+MM - selects a RAM address from either 
+	0:the A bus from the RF or 1:the PC
+MW - enables RAM to be written to
+RV - resets the V flag
+RC - resets the C flag
+RN - resets the N flag
+RZ - resets the Z flag
+FL - allows the flags to be set
+
+RAM
+------
+DataOut - can be either input to the RF, in
+	   which case set MD and RW
+	  or be Opcode, DR, SA and SB, in which
+	   case set IL and unset RW
+
+-Opcode - serves as new ROM address if MC and
+	   CAR load are set
+-DR - with SB displaces the PC if PL, also
+       selects DR in the RF
+-SA - selects SA in the RF
+-SB - with DR displaces the PC if PL, also
+       selects SB in the RF, also serves as
+       input to the FU and RAM if MB
+
+
+FETCH
+Cycle 1 - RAM instruction and address to IR
+DECODE
+Cycle 2 - IR decodes
+EXECUTE
+Cycle 3 - 
+
+RAM says WHAT to do, ROM says HOW to do it
